@@ -3,6 +3,8 @@ import { Button, Navbar, Form, FormControl, Nav, Card,
     OverlayTrigger,Tooltip, InputGroup
 } from 'react-bootstrap';
 import axios from "axios";
+import { CgArrowLongLeft } from "react-icons/cg";
+
 import "./Dashboard.css"
 
 // API 
@@ -147,6 +149,7 @@ class Dashboard extends Component {
 
                     {
                         this.state.category_movies? <div className="movies">
+                            <CgArrowLongLeft className="back-arrow" onClick={() => this.getBackToCategory()} />
                             {
                                 categoryMovieData.map(ele =>{
                                     const img_path = "https://image.tmdb.org/t/p/w185" + ele.poster_path;
@@ -194,6 +197,7 @@ class Dashboard extends Component {
                     {/* SEARCH MOVIES  */}
                     {
                         this.state.search_movies? <div className="movies">
+                            <CgArrowLongLeft className="back-arrow"  onClick={() => this.getBackToCategory()} />
                             {
                                 searchMovieData.map(ele =>{
                                     const img_path = "https://image.tmdb.org/t/p/w185" + ele.poster_path;
