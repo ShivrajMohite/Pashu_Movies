@@ -1,0 +1,77 @@
+.b-name {
+    color: white !important;
+    font-size: 30px !important;
+    font-weight: bold !important;
+}
+
+.c-body {
+    text-align: center !important;
+    font-size: 32px !important;
+    font-weight: bold;
+}
+
+.main-card {
+    min-width: 20rem !important;
+    margin:20px !important;
+    display:inline-block !important;
+    padding-top: 5vh !important;
+    padding-bottom: 5vh !important;
+    background-color: black !important;
+    border: 1px solid #6C7A89 !important;
+    color: #BDC3C7;
+    cursor: pointer;
+}
+
+/* .category-div {
+    padding: 10vh;
+} */
+.category-div p {
+    font-size: 30px;
+    color: white;
+    margin: 20px;
+    /* font-weight: bold; */
+}
+
+.m-title {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.m-overview {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.bck-btn {
+    display: block !important;
+    font-size: 20px !important;
+    /* font-weight: bold !important; */
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    background-color: black !important;
+    border: 1px solid #6C7A89 !important;
+    color: #BDC3C7;
+    border-radius: 25px !important;
+}
+
+.search-tag {
+    margin-top: 10vh;
+}
+
+.s-movie {
+    background-color: black !important;
+    color: white !important;
+    border-radius: 25px !important;
+}
+
+.movie-card {
+    background-color: black !important;
+    border: 1px solid #6C7A89 !important;
+    color: #BDC3C7;
+}
+
+.movies {
+    margin-top: 8vh;
+}
